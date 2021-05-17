@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to browserchromeURL:https://demo.midtrans.com]]>
+    </line>
+    <line>
+      <![CDATA[sdfdg]]>
+    </line>
+  </reporter-output>
+  <suite name="SampleProject" duration-ms="70572" started-at="2021-05-17T15:03:47Z" finished-at="2021-05-17T15:04:57Z">
+    <groups>
+    </groups>
+    <test name="SuccessTest" duration-ms="70572" started-at="2021-05-17T15:03:47Z" finished-at="2021-05-17T15:04:57Z">
+      <class name="testcases.TC_failure_test">
+        <test-method status="PASS" signature="t_01_payment_success(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC_failure_test@396a51ab]" name="t_01_payment_success" duration-ms="70547" started-at="2021-05-17T20:33:47Z" finished-at="2021-05-17T20:34:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.midtrans.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to browserchromeURL:https://demo.midtrans.com]]>
+            </line>
+            <line>
+              <![CDATA[sdfdg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_01_payment_success -->
+      </class> <!-- testcases.TC_failure_test -->
+    </test> <!-- SuccessTest -->
+  </suite> <!-- SampleProject -->
+</testng-results>

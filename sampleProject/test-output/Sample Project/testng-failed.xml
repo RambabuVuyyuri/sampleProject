@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample Project]">
+  <test name="Product selection page">
+    <classes>
+      <class name="testcases.TC_success_test"/>
+    </classes>
+  </test> <!-- Product selection page -->
+</suite> <!-- Failed suite [Sample Project] -->

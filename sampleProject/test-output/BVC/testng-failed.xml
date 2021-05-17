@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BVC]">
+  <parameter name="browser" value="chrome"/>
+  <test name="SmokeTestFF">
+    <classes>
+      <class name="testcases.TC_success_test"/>
+    </classes>
+  </test> <!-- SmokeTestFF -->
+</suite> <!-- Failed suite [BVC] -->
