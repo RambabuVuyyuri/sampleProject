@@ -30,16 +30,6 @@ and Import project as maven.
 POM.xml contains all the required dependencies require for this test cases to run.
 TestNGRunner.xml:
 You can achive cross browser testing by passing different arguments in <parameter>section as browser name="firefox' that would instanciate FireFox() browser.
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  ![image](https://user-images.githubusercontent.com/45011356/118630749-73544700-b7ec-11eb-87aa-2730ba37d83b.png)
 
-<suite name="SampleProject" verbose="1">
-    <parameter name="browser" value="chrome" />
-    <parameter name="url" value="https://demo.midtrans.com" />
-    <test name="SuccessTest">
-        <classes>
-            <class name="testcases.TC1_success_test" />
-        </classes>
-    </test>
-</suite>
                        
